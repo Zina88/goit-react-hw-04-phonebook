@@ -1,0 +1,19 @@
+.filterLabel {
+}
+
+.filterTitle {
+  margin-bottom: 5px;
+}
+
+.filterText {
+  margin-bottom: 20px;
+  padding: 8px;
+  border: 1px solid teal;
+  border-radius: 2px;
+  transition: border 250ms linear;
+}
+
+.filterText:focus-visible {
+  border: 1px solid rgb(9, 169, 108);
+  outline: none;
+}

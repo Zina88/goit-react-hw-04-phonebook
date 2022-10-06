@@ -1,0 +1,14 @@
+.contactItem {
+  display: grid;
+  grid-template-columns: 1fr 1fr 30px;
+  outline: 1px solid teal;
+  padding: 15px;
+  margin-bottom: 8px;
+  border-radius: 2px;
+}
+
+.contactItem:last-child {
+  margin-bottom: 0;
+}
+
+

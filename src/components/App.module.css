@@ -1,0 +1,48 @@
+.container {
+  padding: 20px;
+  width: 320px;
+  margin: 0 auto;
+  box-shadow: 5px 5px 5px rgb(176, 173, 173);
+  border: 1px solid rgba(0, 128, 128, 0.25);
+  background-color: #fff;
+  border-radius: 4px;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 680px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .container {
+    width: 1350px;
+  }
+}
+
+.title {
+  margin-bottom: 15px;
+  color: teal;
+}
+
+.isEmpty {
+  color: rgb(159, 161, 161);
+}
+
+.addContact {
+  margin-bottom: 30px;
+  padding: 8px 30px;
+  background-color: teal;
+  color: white;
+  border: transparent;
+  border-radius: 4px;
+  box-shadow: 1px 2px 2px 0 rgb(0 0 0 / 0.5);
+  transition: box-shadow 250ms linear, background-color 250ms linear;
+}
+
+.addContact:active,
+.addContact:hover,
+.addContact:focus {
+  box-shadow: 2px 3px 2px 0 rgb(0 0 0 / 0.5);
+  background-color: rgb(9, 147, 147);
+}

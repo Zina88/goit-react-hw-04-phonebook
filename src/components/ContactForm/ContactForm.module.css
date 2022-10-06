@@ -1,0 +1,47 @@
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+/* .label {
+}
+.title {
+} */
+.input {
+  padding: 8px;
+  border: 1px solid teal;
+  margin-bottom: 10px;
+  border-radius: 2px;
+  transition: border 250ms linear;
+  width: 315px;
+}
+
+@media screen and (min-width: 768px) {
+  .input {
+    width: 580px;
+  }
+}
+
+.input:focus-visible {
+  border: 1px solid rgb(9, 147, 147);
+  outline: none;
+}
+
+.button {
+  margin-bottom: 30px;
+  padding: 8px 15px;
+  background-color: teal;
+  color: white;
+  border: transparent;
+  border-radius: 4px;
+  box-shadow: 1px 2px 2px 0 rgb(0 0 0 / 0.5);
+  transition: box-shadow 250ms linear, background-color 250ms linear;
+}
+
+.button:active,
+.button:hover,
+.button:focus {
+  box-shadow: 2px 3px 2px 0 rgb(0 0 0 / 0.5);
+  background-color: rgb(9, 147, 147);
+}
