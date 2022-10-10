@@ -26,3 +26,29 @@
     width: 600px;
   }
 }
+
+.buttonClose {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+
+  position: absolute;
+  top: -30px;
+  right: 0;
+  background-color: transparent;
+  color: #ccc;
+  border: transparent;
+  transition: color 250ms linear;
+}
+
+.buttonClose:active,
+.buttonClose:hover,
+.buttonClose:focus {
+  color: teal;
+}
+
+.svg {
+  width: 20px;
+  height: 20px;
+}
